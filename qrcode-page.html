@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles-qrpage.css">
+    <title>Responsive Web Developer Starter - devchallenges.io</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" sizes="any">
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/qrcode.js"></script>
+</head>
+<header>
+    <nav>
+    <img src="/images/logo-qr-generator.svg" class="qr-logo" width="200" height="auto">
+    </nav>
+</header>
+<body>
+
+
+    <main>
+        <div class="qr-wrapper">
+            <div class="qr-frame">
+                <div id="qrcode" onload="makeQR()"></div>
+            </div>
+        </div>
+
+        <div class="btn-wrapper">
+            <div class="download-btn"><p>Download</p> <img src="/images/icons8-interno.png" alt="" class="download-icon"></div>
+            <div class="share-btn"><p>Share</p> <img src="/images/icons8-enlazar.png" alt="" class="share-icon"></div>
+        </div>
+    </main>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,5 +1,3 @@
-import QRCode from 'qrcode';
-
 var qrBtn = document.getElementById("qr-btn");
 
 if (qrBtn) {

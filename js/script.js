@@ -10,6 +10,8 @@ if (qrBtn) {
             alert("Por favor, ingrese una URL antes.");
         }
     });
+} else {
+    console.log("No encontrado");
 }
 
  function makeQR() {    

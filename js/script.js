@@ -46,6 +46,7 @@ if (qrBtn) {
       });
 
       botonCopy.addEventListener('click', function() {
+          console.log(url)
           copyURL();
       });
 
